@@ -231,12 +231,12 @@ z-index: 1;
  .container
  {
     max-width:1px;
-    height:30vh;
+    height:35vh;
     display: block;
     margin:0;
     padding:0;
  }
- .row img {
+ .row a img {
   display: flex;
   justify-content: space-between; /* or 'space-around', 'center', etc. */
   width: 33%;
@@ -248,7 +248,7 @@ z-index: 1;
 .col-md-4 img
 {
     width:360px;
-    height:30vh
+    height:35vh
 }
 .col-md-4 img:hover
 {
@@ -281,14 +281,29 @@ font-size:24px;
     margin-left: 170px;
 }
 
-.product-top img {
-    width: 100%;      /* Makes image fill the column */
+.product-top img {     
     align-self: auto;     /* Maintains aspect ratio */
-    object-fit: cover; /* Optional: trims the image to fit */
+    object-fit: cover;
+     height:30vh;
+    width: 100%;
+  /* Optional: trims the image to fit */
 }
 .product-top {
     position: relative; /* Needed for absolute positioning of overlay */
 }
+
+ .row b img {
+  display: flex;
+  justify-content: space-between; /* or 'space-around', 'center', etc. */
+  width: 100%;
+  gap: 10px; /* space between images */
+  padding: 1px;
+  box-sizing: border-box;
+  height:30vh;
+ }
+ 
+
+
 
 .overlay-right {
     position: absolute;
