@@ -271,7 +271,7 @@ z-index: 1;
     color:#fff;
     width:180px;
     padding: 4px 10px;
-    height: 40px;
+    height: 45px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -307,7 +307,7 @@ font-size:24px;
   gap: 10px; /* space between images */
   padding: 1px;
   box-sizing: border-box;
-  height:30vh;
+  height:15vh;
  }
  
 
@@ -355,4 +355,53 @@ font-size: 10px;
     color :red;
     display :inline-block ;
     vertical-align: center;
+}
+
+/*----new arrivals ----*/
+.new-products{
+
+    margin: 140px 0px;
+}
+/*----website features------*/
+.website-features {
+  padding: 20px 0;
+  background-color: #f8f9fa; /* light gray background */
+}
+.feature-box {
+  text-align: center;
+  padding: 2px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-box img {
+  width: 80px;
+  height: 15vh;
+  margin: 350px 0px 5px 0px;
+}
+.feature-text p {
+  font-size: 14px;
+  color: #333;
+}
+
+.feature-text b {
+  font-size: 15px;
+  color: #000;
+}
+/*----footer------*/
+.footer
+{
+    margin: 300px 0px 15px 0px;
+    background:#000;
+    color:#fff;
+}
+.footer h1{
+    font-size: 15px;
+    margin:15px 0;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer-image img
+{
+    width: 115px;
+    height: 60px;
 }
