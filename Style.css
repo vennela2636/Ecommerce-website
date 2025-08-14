@@ -23,12 +23,14 @@ body
         display: inline-flex;
         align-items: center;
         width:50%;
+        margin-top: 5px;
     }
 
     .logo {
-        width: 50px;
+        width: 60px;
         height: auto;
         margin: 5px 10px;
+        padding: -5px;
     }
 
     .input-group {
@@ -194,31 +196,32 @@ section {
 
 .block1 {
   background-color: lightgrey;
-  padding:10px 0px 10px 0px ;
+  padding:5px 0px 5px 0px ;
   flex: 1; /* Optional, makes the divs take equal space */
   width: 22%;
-  height: 85vh;
+  height: 82vh;
 }
 .block2 {
   background-color: lightgray;
-  padding: 10px 10px 10px 0px;
+  padding: 5px 5px 0px 0px;
   width:78%;
- height: 83vh;
+ height: 82vh;
 }
 .carousel-inner img {
-  height: 83vh; /* You can change this value */
-  object-fit: cover; /* Ensures the image covers the area without distorting */
+  height: 80vh; /* You can change this value */
+  object-fit: cover;
+  width:100%; /* Ensures the image covers the area without distorting */
 }
 .carousel
 {
-    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
 }
 .carousel-indicators
 {
 z-index: 1;
 }
 .carousel-control-prev{
-  left: 230px !important; /* Move closer to center */
+  left: 1px !important; /* Move closer to center */
 }
 
 .carousel-control-next {
@@ -289,27 +292,24 @@ font-size:24px;
     margin-left: 170px;
 }
 
-.product-top img {     
-    align-self: auto;     /* Maintains aspect ratio */
-    object-fit: cover;
-     height:30vh;
-    width: 100%;
-  /* Optional: trims the image to fit */
-}
+
 .product-top {
-    position: relative; /* Needed for absolute positioning of overlay */
+    position: relative;
+    height:30vh /* Needed for absolute positioning of overlay */
 }
 
- .row b img {
+ .product-top img {
   display: flex;
   justify-content: space-between; /* or 'space-around', 'center', etc. */
-  width: 100%;
+  width: 100% !important;
   gap: 10px; /* space between images */
   padding: 1px;
   box-sizing: border-box;
-  height:15vh;
+  height:30vh;
+  align-self: auto;     /* Maintains aspect ratio */
+    object-fit: cover;
  }
- 
+
 
 
 
@@ -366,6 +366,7 @@ font-size: 10px;
 .website-features {
   padding: 20px 0;
   background-color: #f8f9fa; /* light gray background */
+  margin-bottom: 100px;
 }
 .feature-box {
   text-align: center;
@@ -389,7 +390,7 @@ font-size: 10px;
 /*----footer------*/
 .footer
 {
-    margin: 300px 0px 15px 0px;
+    margin: 300px 0px 0px 0px;
     background:#000;
     color:#fff;
 }
@@ -404,4 +405,73 @@ font-size: 10px;
 {
     width: 115px;
     height: 60px;
+}
+/*------single-product----*/
+.single-product
+{
+    margin-top: 30px;
+}
+.new-arrival
+{
+    background: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.col-md-7 h2{
+    color:#555;
+    
+}
+.col-md-7 img
+{
+    height: 5vh;
+    object-fit: cover;
+    width:100%;
+}
+.single-product .price
+{
+    font-size: 25px;
+    color: orange;
+    font-weight: bold;
+}
+.single-product .fa
+{
+    color: orange;
+}
+.single-product input
+{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height:30px;
+     text-align: center;
+     width: 30px;
+}
+.single-product .btn-primary
+{
+    background: orange !important;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: none;
+}
+/*-------------product-description-------*/
+.product-description
+{
+    margin-top: 350px  ;
+    padding:0px 25px;
+    display: flex;
+}
+.product-description h6
+{
+    color:orange;
+    font-size:25px ;
+}
+.product-description hr
+{
+    margin-bottom: 20px;
+    height: 5px;
+    background-color: black;
 }
