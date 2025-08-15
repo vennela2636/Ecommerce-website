@@ -246,7 +246,7 @@ z-index: 1;
     margin:0;
     padding:10px;
  }
- .row a img {
+ .row featured-category img {
   display: flex;
   justify-content: space-between; /* or 'space-around', 'center', etc. */
   width: 33%;
