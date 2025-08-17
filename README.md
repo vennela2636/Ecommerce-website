@@ -36,6 +36,9 @@ This project is a **responsive navigation bar** that includes:
 - 🖼️ Logo section with image support
 - 🎨 Easily customizable with CSS
 
+
+
+
 vedios/E-COMMERCE WEBSITE and 2 more pages - Personal - Microsoft​ Edge 2025-08-17 11-39-55.mp4
 
 # 📝 Sign-Up Page (HTML, CSS, JS)
