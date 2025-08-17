@@ -5,7 +5,9 @@ EliteMart is ideal for launching a professional online store.
 
 ![Login Page Screenshot](images/detailed-click-collect-sign_23-2148779338.jpg)
 
-![Login Page Screenshot](vedios/Sign Up and 3 more pages - Personal - Microsoft​ Edge 2025-08-17 11-49-32.mp4)
+## 🎥 Demo Video
+
+[Click here to watch the video](https://drive.google.com/uc?export=download&id=1F2vNva_NU5v1achjCBuLyKrc0TdpMi8A)
 
 
 
